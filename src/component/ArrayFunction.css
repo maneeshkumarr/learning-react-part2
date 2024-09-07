@@ -1,0 +1,41 @@
+/* 
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.greet-button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.greet-button:hover {
+  background-color: #45a049;
+}
+ */

@@ -1,0 +1,89 @@
+/* ArrayMethod.css */
+
+.array-method-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h2 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.fruits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fruit-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.fruit-item:hover {
+  transform: scale(1.05);
+}
+
+.fruit-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.notes-container {
+  margin: 20px 0;
+  background-color: #e9f5ff;
+  padding: 10px;
+  border-left: 4px solid #fbfdff;
+}
+
+.note {
+  padding-left: 10px;
+}
+
+.squared-values-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.squared-values-list li {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.student-details-table th,
+.student-details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.student-details-table th {
+  background-color: #0073e6;
+  color: white;
+}
+
+.student-details-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-details-table tr:hover {
+  background-color: #ddd;
+}
